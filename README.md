@@ -97,4 +97,30 @@ The `wandb_run()` function will take in certain combination of hyperparameters a
 ```
 Once we get the model trained, we can call `model_Run()` function to run the model over the desired dataset. In the function `accuracy_calculation()` we can give in the desired dataset ( validation or test ) to run the model. It returns the accuracy of the model. Loss computation is also done inside the `model_Run()` function . Both accuracy and loss is logged into wandb. 
 
+### Train.py
+The code can be run using train.py script.
+
+
+| Name | Default Value |
+
+| `-hz`, `--hidden_size` | 256 |
+
+| `-enc`, `--no_of_enc_layers` | 1 |
+
+| `-dec`, `--no_of_enc_layers` | 1 |
+
+| `-cell`, `--celltype` | "lstm", choices=['rnn', 'lstm','gru'] |
+
+| `-drop`, `--dropout` | 0 |
+
+| `-att`, `--attention` | False |
+
+| `-bi`, `--bidirectional` | False |
+
+| `-emb`, `--embedding_size` | 256 |
+
+
+
+
+
 
