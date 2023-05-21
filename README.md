@@ -101,26 +101,16 @@ Once we get the model trained, we can call `model_Run()` function to run the mod
 The code can be run using train.py script.
 
 
-| Name | Default Value |
-
+| Name | Default Value | 
+| :---: | :-------------: | 
 | `-hz`, `--hidden_size` | 256 |
-
 | `-enc`, `--no_of_enc_layers` | 1 |
-
 | `-dec`, `--no_of_enc_layers` | 1 |
-
 | `-cell`, `--celltype` | "lstm", choices=['rnn', 'lstm','gru'] |
-
 | `-drop`, `--dropout` | 0 |
-
 | `-att`, `--attention` | False |
-
 | `-bi`, `--bidirectional` | False |
-
 | `-emb`, `--embedding_size` | 256 |
-
-
-
 
 
 
